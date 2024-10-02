@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Circular';
+  src: url('/Users/matthewchong/portfolio-website/portfolio/src/assets/fonts/CircularStd-Medium.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Circular', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Circular', sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 40px;
+}
+
+.grid > div {
+  min-height: 200px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

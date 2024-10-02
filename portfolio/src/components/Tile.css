@@ -1,0 +1,11 @@
+/* src/Tile.css */
+.tile {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #e0f7fa; /* Light blueish background */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
